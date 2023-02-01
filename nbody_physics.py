@@ -150,5 +150,3 @@ def generate_body(orbit_r, orbit_angle):
     pos = orbit_angle @ np.asarray([orbit_r, 0.0, 0.0])
 
     return m, pos, velocity
-
-

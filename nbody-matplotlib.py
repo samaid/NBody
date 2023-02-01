@@ -4,8 +4,8 @@ import mpl_toolkits.mplot3d.axes3d as p3
 import matplotlib.animation as animation
 import time
 
-from settings import *
 from nbody_physics import *
+
 
 def main():
     # Collection of random states generating nice trajectories. Uncomment those you want
