@@ -2,6 +2,8 @@ import numpy as np
 
 from settings import *
 
+DT = 0.1
+G = 0.1
 
 class Camera:
     def __init__(self, camera_pos, camera_angle, display_pos):
